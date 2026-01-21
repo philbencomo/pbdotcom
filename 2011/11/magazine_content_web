@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.7">
+<link rel="stylesheet" type="text/css" media="screen" href="/css/8-2010.css">
+<link rel="icon" href="/favicon.ico">
+<link rel="alternate" type="application/atom+xml" href="/index.xml">
+<script type="text/javascript" src="/jwplayer/swfobject.js"></script>
+<script type="text/javascript" src="/jwplayer/jwplayer.js"></script>
+<script type="text/javascript" src="/js/smoothscroll.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6932442-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    <title>Magazine Content and the Web | Phil Bencomo</title>
+</head>
+<body>
+    <div id="header">
+    <h1><a href="/">The website of <strong>Phil Bencomo</strong></a></h1>
+    <h2><a href="/about" title="More about me and the site">About</a> <span class="bullet">•</span> <a href="/archive" title="Archive">Archive</a> <span class="bullet">•</span> <a href="https://www.flickr.com/photos/philbencomo" title="My Flickr feed">Flickr</a> <span class="bullet">•</span> <a href="http://cowbird.com/phil" title="My Cowbird stories">Cowbird</a> <span class="bullet">•</span> <a href="http://twitter.com/philbencomo" title="I tweet here">@philbencomo</a></h2>
+    
+</div>
+
+    
+    <div class="storypost">
+        <h1>Magazine Content and the Web</h1>
+        <p>Context is king.</p>
+
+<p>That holds true everywhere we publish, analog or digital. Anyone can sling content &#8212; and on the web, everyone will &#8212; but an article out of context is no more useful than a printed book chock full of typed-out URLs, which would be screwy, intrusive, frustrating and a distraction from the reading I&#8217;d want to do. Context can elevate content, but the wrong frame can tear it down just as easily.</p>
+
+<p>But what does context mean on the web? There&#8217;s no single answer, and that&#8217;s the very crux of the internet: The web is whatever we need it to be, just as water changes shape when poured into a new glass. The web is more than a medium for publishing or communications or commerce &#8212; <a href="http://www.ftrain.com/wwic.html">it&#8217;s a customer service medium</a>, and websites and services sprout to fill every possible need.</p>
+
+<hr />
+
+<p>I&#8217;m going to limit the scope here to magazines, simply because, well, that and the web are what I know.</p>
+
+<p>Let&#8217;s consider a printed magazine, maybe a small regional publication about a certain lifestyle, history and culture. You know the type, I&#8217;m sure.</p>
+
+<p>Then flip to a section like, say, travel reviews, punchy little things with an overview and maybe a recommendation. Is a reader of this section looking for a new place to visit? Quite possibly. Sure, many folks read travel stories like fiction, as a way to mentally get away. But a lot of people clip out the intriguing destinations or save whole magazines for future reference. It&#8217;s a casual, mostly passive act: <em>That sounds interesting, I&#8217;ll have to try it sometime.</em></p>
+
+<p>So now this magazine&#8217;s next issue is going to press, and the web editors have a whole book full of stories to parcel out on the website. (This works in reverse, too, in a digital-first workflow, where the <em>print</em> editors must put <em>web</em> content onto a different platform with a different context.) The simple solution &#8212; and, sadly, the one I see way too often &#8212; is the cut-and-paste: InCopy to CMS to website to social media. Repeat. But what about context?</p>
+
+<p>Let&#8217;s consider the travel section again, this time on the magazine&#8217;s website.</p>
+
+<p><em>Don&#8217;t call me a reader or user, no, here I&#8217;m a hunter of information. I&#8217;m planning a trip and I&#8217;ve come to</em> your website <em>to do it. I know what I want: Someplace family-friendly, and outdoors, in a three-state radius; it&#8217;s only a long-weekend trip, plus the kids&#8217;ll kill each other if they&#8217;re in the car together for too long. Alright, I&#8217;ll click on the travel section and see what matches&#8230; What? A long list of travel-related magazine stories?</em></p>
+
+<p>A magazine reader is not the same as a web user; it&#8217;s a casual vs. mission-driven act. On the web, I want those travel reviews sliced and diced, sorted and tagged; I want the facts; I want the metadata. And, without the space restrictions of print, why limit the review to a few paragraphs, a link and a photo? Tell me a story about the experience, relate to people, and encourage your community of readers to do the same. That&#8217;s how you build a useful web resource &#8212; and best serve your customers.</p>
+
+<hr />
+
+<p>But enough about travel sections. What do you do with a feature? The default response these days &#8212; especially in magazines&#8217; tablet editions &#8212; is, &#8220;Add multimedia!&#8221; And I&#8217;m not fundamentally opposed; why shouldn&#8217;t we take advantage of all the different ways to tell a story on the web? But it has to make sense. A video produced just to have a video doesn&#8217;t serve anybody. Multimedia have to add a new dimension to the storytelling.</p>
+
+<p>I love the work of <a href="http://number27.org">Jonathan Harris</a>. In other hands, his latest project, <a href="http://balloonsofbhutan.org/">Balloons of Bhutan</a>, could have been a drab, text- and statistics-heavy story of a tiny nation. But by giving faces and voices to the men and women of Bhutan, he&#8217;s created something powerfully human, something printed words can never match. And that&#8217;s the best way to use multimedia on the web.</p>
+
+<p>How about the feature itself? Often, the text of a good magazine story transcends the medium. You can (and should) add links, restore photos cut for space, spin off sidebars into full-bodied articles of their own, or even embed a YouTube video instead of describing it, but a compelling story &#8212; the core of the article &#8212; is no less compelling whether in print or on the web.</p>
+
+<p>What&#8217;s so often left behind, though, is the <em>design</em> of the feature. Print designers don&#8217;t lay out stories just for fun. Great editorial design is as much a part of the story as the text: It sets the mood, elevates the drama, and inserts critical elements like photographs precisely when and where they&#8217;re needed. In short, <em>the design adds context</em>. When you funnel a story through a CMS into the same template as a 200-word blog post, you&#8217;ve lost all of that.</p>
+
+<p>At the <a href="http://thebaseballchronicle.com/">Chronicle</a>, I&#8217;ve tried to champion, and web-ify, that ethos. In print magazines, I love the full-bleed photos, the careful typography, the <em>feeling</em> you get when you open up a gorgeous spread.</p>
+
+<p>Why can&#8217;t I feel that way when I read a web feature, too?</p>
+
+<p><em>Long live context. Long live the king.</em></p>
+
+        <h3 class="dateandtag">Nov. 18, 2011 <span class="bullet">•</span> <a href="/tag/design" title="All posts tagged 'design'">design</a> <a href="/tag/journalism" title="All posts tagged 'journalism'">journalism</a> <a href="/tag/publishing" title="All posts tagged 'publishing'">publishing</a> <a href="/tag/storytelling" title="All posts tagged 'storytelling'">storytelling</a></h3>
+    </div>
+    
+    
+    
+    <div id="footer">
+        <hr>
+	<ul>
+             <li><a href="#header" title="Back to the top">&#x2191; Top</a></li>
+             <li><a href="/about">About</a></li>
+             <li><a href="/archive">Archive</a></li>
+             <li><a href="/index.xml">RSS</a></li>
+             <li><a href="http://twitter.com/philbencomo" title="I tweet here">@philbencomo</a></li>
+        </ul>
+</div>
+</body>
+</html>

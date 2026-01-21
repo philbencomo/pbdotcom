@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.7">
+<link rel="stylesheet" type="text/css" media="screen" href="/css/8-2010.css">
+<link rel="icon" href="/favicon.ico">
+<link rel="alternate" type="application/atom+xml" href="/index.xml">
+<script type="text/javascript" src="/jwplayer/swfobject.js"></script>
+<script type="text/javascript" src="/jwplayer/jwplayer.js"></script>
+<script type="text/javascript" src="/js/smoothscroll.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6932442-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    <title>The Return of @infinite_words | Phil Bencomo</title>
+</head>
+<body>
+    <div id="header">
+    <h1><a href="/">The website of <strong>Phil Bencomo</strong></a></h1>
+    <h2><a href="/about" title="More about me and the site">About</a> <span class="bullet">•</span> <a href="/archive" title="Archive">Archive</a> <span class="bullet">•</span> <a href="https://www.flickr.com/photos/philbencomo" title="My Flickr feed">Flickr</a> <span class="bullet">•</span> <a href="http://cowbird.com/phil" title="My Cowbird stories">Cowbird</a> <span class="bullet">•</span> <a href="http://twitter.com/philbencomo" title="I tweet here">@philbencomo</a></h2>
+    
+</div>
+
+    
+    <div class="storypost">
+        <h1>The Return of @infinite_words</h1>
+        <p>It only took me, like, three years, but I&#8217;ve got the <a href="https://twitter.com/infinite_words">@infinite_words</a> account running again.</p>
+
+<p>The <a href="http://philbencomo.com/2011/10/infinite_words">previous iteration</a> of my <em>Infinite Jest</em> word-a-day bot survived for a year and a half, until changes to the Twitter API killed it. I still received cron notifications in my inbox with the day&#8217;s word and an error message, nagging me every day at 12:10 p.m. to update it.</p>
+
+<p>On this rainy Sunday, using a <a href="http://www.zachwhalen.net/posts/how-to-make-a-twitter-bot-with-google-spreadsheets-version-04/">quick-and-dirty tool</a> by Zach Whalen, I finally did.</p>
+
+        <h3 class="dateandtag">Jul. 10, 2016 <span class="bullet">•</span> <a href="/tag/bot" title="All posts tagged 'bot'">bot</a> <a href="/tag/davidfosterwallace" title="All posts tagged 'davidfosterwallace'">davidfosterwallace</a> <a href="/tag/twitter" title="All posts tagged 'twitter'">twitter</a> <a href="/tag/webdev" title="All posts tagged 'webdev'">webdev</a></h3>
+    </div>
+    
+    
+    
+    <div id="footer">
+        <hr>
+	<ul>
+             <li><a href="#header" title="Back to the top">&#x2191; Top</a></li>
+             <li><a href="/about">About</a></li>
+             <li><a href="/archive">Archive</a></li>
+             <li><a href="/index.xml">RSS</a></li>
+             <li><a href="http://twitter.com/philbencomo" title="I tweet here">@philbencomo</a></li>
+        </ul>
+</div>
+</body>
+</html>

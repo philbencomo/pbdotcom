@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.7">
+<link rel="stylesheet" type="text/css" media="screen" href="/css/8-2010.css">
+<link rel="icon" href="/favicon.ico">
+<link rel="alternate" type="application/atom+xml" href="/index.xml">
+<script type="text/javascript" src="/jwplayer/swfobject.js"></script>
+<script type="text/javascript" src="/jwplayer/jwplayer.js"></script>
+<script type="text/javascript" src="/js/smoothscroll.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6932442-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    <title>A Responsive Design | Phil Bencomo</title>
+</head>
+<body>
+    <div id="header">
+    <h1><a href="/">The weblog of <strong>Phil Bencomo</strong></a></h1>
+    <h2><a href="/about" title="More about me and the site">About</a> <span class="bullet">•</span> <a href="/archive" title="Weblog archive">Archive</a> <span class="bullet">•</span> <a href="/index.xml" title="RSS feed">RSS</a> <span class="bullet">•</span> <a href="http://twitter.com/philbencomo" title="I tweet here">@philbencomo</a></h2>
+    
+</div>
+
+    
+    <div class="storypost">
+        <h1>A Responsive Design</h1>
+        <p>It&#8217;s no secret: <a href="http://thebaseballchronicle.com">The Baseball Chronicle</a> isn&#8217;t just a celebration of baseball and the narrative. It&#8217;s also a place for me to experiment with the latest in web design and development.</p>
+
+<p>I&#8217;m a tinkerer by nature, and the Chronicle has become, perhaps even more than this site, that with which I tinker. After months of reading about HTML5, CSS3 and @font-face, I started on a redesign incorporating all of them. What better way to learn? What good is unapplied knowledge?</p>
+
+<p>So after I read Ethan Marcotte&#8217;s spectacular &#8220;<a href="http://www.alistapart.com/articles/responsive-web-design/">Responsive Web Design</a>&#8221; at <cite>A List Apart</cite>, of course I had to implement it at the Chronicle. I&#8217;d long thought about creating a mobile version of the site, but it always seemed excessive. I didn&#8217;t need to add content or functionality for mobile users. The site simply needed to be a little more usable for readers with small screens. Enter media queries:</p>
+
+<blockquote>
+  <p>Rather than quarantining our content into disparate, device-specific experiences, we can use media queries to progressively enhance our work within different viewing contexts.</p>
+</blockquote>
+
+<p>I started in July on a rudimentary responsive front page, but vacation and other happenings shelved the project until mid-August, while designing &#8220;<a href="http://thebaseballchronicle.com/personal_stories/sunday_fly">Sunday Fly</a>,&#8221; the second story of the bespoke era. (As part of the redesign, I create original designs for every story, using Movable Type logic to search for and apply a style sheet whose name matches the post&#8217;s title. Pre-redesign posts, as yet lacking custom styles, inherit a base design.) I tack on the responsive code to the end of each post&#8217;s style sheet.</p>
+
+<p>The responsive styles for &#8220;<a href="http://thebaseballchronicle.com/fiction/the_man_on_the_mound">The Man on the Mound</a>&#8221; begin:</p>
+
+<p><code>@media screen and (max-width: 750px)</code></p>
+
+<p>Screens less than 750 pixels wide receive any subsequent styling, which eliminates <code>float</code>s, resizes type and margins, and adds many a <code>width: auto;</code>. The effect is a legible and usable design at any screen size, across devices, without a dedicated mobile subdomain or new style sheet.</p>
+
+<p>For more on responsive design, read the <a href="http://www.alistapart.com/articles/responsive-web-design/"><cite>A List Apart</cite> article</a> and check out the websites of <a href="http://simplebits.com/">Dan Cederholm</a>, <a href="http://colly.com/">Simon Collison</a> and <a href="http://hicksdesign.co.uk/journal/">Jon Hicks</a> for further inspiration and guidance.</p>
+
+        <h3 class="dateandtag">Sep. 13, 2010 <span class="bullet">•</span> <a href="/tag/css" title="All posts tagged 'css'">css</a> <a href="/tag/design" title="All posts tagged 'design'">design</a> <a href="/tag/webdev" title="All posts tagged 'webdev'">webdev</a></h3>
+    </div>
+    
+    
+    
+    <div id="footer">
+        <hr>
+	<ul>
+             <li><a href="#header" title="Back to the top">&#x2191; Top</a></li>
+             <li><a href="/about">About</a></li>
+             <li><a href="/archive">Archive</a></li>
+             <li><a href="/index.xml">RSS</a></li>
+             <li><a href="http://twitter.com/philbencomo" title="I tweet here">@philbencomo</a></li>
+        </ul>
+</div>
+</body>
+</html>

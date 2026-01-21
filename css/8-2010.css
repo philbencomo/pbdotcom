@@ -1,0 +1,694 @@
+/*
+Qua hoon! A CSS explorer! I extend my greetings.
+
+Look all you want, and take ideas and a few snippets as your own.
+(That's how I learned.) Just don't copy and paste *everything*, please.
+
+Thanks for visiting!
+
+--Phil Bencomo, August 2010
+*/
+
+
+/*   Global styles   */
+
+body {
+	font-family: Palatino, 'Palatino Linotype', Georgia, serif;
+	font-size: 20px;
+	color: #333;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+    text-rendering: optimizeLegibility;
+}
+
+a:link {
+	text-decoration: none;
+	color: #005b9c;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #005b9c;
+}
+
+a:visited:hover {
+	color: #121212;
+}
+
+a:hover {
+	color: #121212;
+	text-decoration: underline;
+}
+
+code {
+	font-family: monospace;
+	font-size: .8em;
+}
+
+#header {
+	width: 630px;
+	margin: 130px auto 0 auto;
+}
+
+	#header h1 {
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 1em;
+		font-weight: normal;
+		letter-spacing: 2px;
+	}
+	
+	#header span {
+		font-weight: bold;
+	}
+	
+	#header h2 {
+		font-size: .9em;
+		font-style: italic;
+		font-weight: normal;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	
+	hr {
+		margin: 30px 0 35px 0;
+		border: 0;
+		height: 0;
+		text-align: center;
+	}
+	
+	hr:after {
+		color: #000;
+		content: '***';
+		font-size: 1.5em;
+		text-align: center;
+		letter-spacing: 5px;
+	}
+	
+	
+/*   About/writing styles   */
+	
+#main {
+	width: 630px;
+	margin: 45px auto 0 auto;
+	font-size: .9em;
+	line-height: 1.35em;
+	text-align: center;
+}
+
+	#main h1 {
+		margin-bottom: 40px;
+		font-size: 1.9em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	#main img {
+		border: 2px solid black;
+		float: left;
+		margin: 0 10px 0px 0;
+	}
+	
+	#main p {
+		margin-top: 0;
+		margin-bottom: 19px;
+	}
+	
+	#main h3 {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 1em;
+		margin-top: 1.5em;
+		margin-bottom: 0;
+		letter-spacing: 1px;
+	}
+
+		#main h4:first-of-type {
+			margin-top: 0;
+		}
+
+	#main h4 {
+		margin-top: 1.5em;
+		margin-bottom: 0;
+	}
+
+		#main h4:first-child {
+			margin-top: 0;
+		}
+	
+div.backhome {
+	margin-top:30px;
+}
+
+	div.backhome p {
+		text-align: center;
+		font-size: 1.2em;
+	}
+
+#main ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+/*   Weblog styles   */
+
+#header h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+	#header h2 a:link {
+		color: #333;
+		text-decoration: none;
+		border-bottom: 1px solid #dcdcdc;
+	}
+
+	#header h2 a:visited {
+		color: #333;
+		text-decoration: none;
+		border-bottom: 1px solid #dcdcdc;
+	}
+
+	#header h2 a:hover {
+		color: #333;
+		text-decoration: none;
+		border-bottom: 2px solid #005b9c;
+	}
+
+p.goback {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.linkpost {
+	width: 630px;
+	margin: 50px auto 0 auto;
+	font-size: .9em;
+	line-height: 1.3em;
+	margin-top: 90px;
+}
+
+	.linkpost h2 {
+		font-size: 1.2em;
+	}
+
+	.linkpost p {
+		clear: both;
+		font-size: 1em;
+		line-height: 1.6em;
+	}
+	
+	.linkpost p a:link {
+		color: #333;
+		text-decoration: none;
+		border-bottom: 1px solid #bababa;
+	}
+	
+	.linkpost p a:visited {
+		color: #333;
+		text-decoration: none;
+		border-bottom: 1px dotted #bababa;
+	}
+	
+	.linkpost p a:hover {
+		color: #333;
+		text-decoration: none;
+		border-bottom: 2px solid #005b9c;
+	}
+
+	span.permalink {
+		padding-left: 15px;
+        font-size: .8em;
+	}
+
+		span.permalink a:link {
+			color: #cccccc;
+		}
+
+		span.permalink a:visited {
+			color: #cccccc;
+		}
+
+		span.permalink a:visited:hover {
+			color: #333;
+		}
+
+		span.permalink a:hover {
+			color: #333;
+		}
+
+	span.infin {
+		padding-left: 15px;
+    	font-size: 1em;
+		color: #333;
+	}
+
+		span.infin a:link {
+			color: #cccccc !important;
+			text-decoration: none !important;
+			border: none !important;
+		}
+
+		span.infin a:visited {
+			color: #cccccc !important;
+			text-decoration: none !important;
+			border: none !important;
+		}
+
+		span.infin a:hover {
+			color: #333 !important;
+			text-decoration: underline !important;
+			border: none !important;
+		}
+
+.storypost {
+	width: 630px;
+	margin: 130px auto 0 auto;
+	font-size: .9em;
+	line-height: 1.3em;
+}
+
+	.storypost h1 {
+		text-align: left;
+		font-size: 1.5em;
+		line-height: 1.1em;
+		margin-bottom: 5px;
+	}
+
+	.storypost h2 {
+		font-size: 1.2em;
+		margin-top: 35px;
+	}
+
+.linkpost ol, .storypost ol {
+	padding-left: 1.35em;
+}
+	
+h3.dateandtag {
+	color: #333;
+    font-size: 1em;
+    text-align: left;
+	font-weight: bold;
+	font-size: .95em;
+}
+
+	span.bullet {
+		color: #999;
+	}
+
+h3.dateandtag a:link {
+	color: #aaaaaa;
+    border: none;
+    text-decoration: none;
+}
+
+h3.dateandtag a:visited {
+	color: #aaaaaa;
+    border: none;
+    text-decoration: none;
+}
+
+h3.dateandtag a:visited:hover {
+	color: #333;
+    border: none;
+    text-decoration: underline;
+}
+
+h3.dateandtag a:hover {
+	color: #333;
+    border: none;
+    text-decoration: underline;
+}
+
+	.storypost p {
+		clear: both;
+		font-size: 1em;
+		line-height: 1.6em;
+	}
+	
+		.storypost p a:link {
+			color: #333;
+			text-decoration: none;
+			border-bottom: 1px solid #bababa;
+		}
+		
+		.storypost p a:visited {
+			color: #333;
+			text-decoration: none;
+			border-bottom: 1px dotted #bababa;
+		}
+		
+		.storypost p a:hover {
+			color: #333;
+			text-decoration: none;
+			border-bottom: 2px solid #005b9c;
+		}
+
+	.storypost hr {
+		font-size: 1.1em;
+	}
+
+	.storypost ol {
+		line-height: 1.4em;
+		padding-right: 20px;
+	}
+
+	div.storypost img,
+	div.storypost iframe,
+	div.storypost object,
+	div.storypost embed,
+	div.storypost video {
+		max-width: 100%;
+	}
+
+.photopost {
+	width: 840px;
+	margin: 100px auto 0 auto;
+	font-size: .9em;
+	line-height: 1.3em;
+}
+
+	.photopost img {
+		max-width: 100%;
+	}
+
+	.photopost h3 {
+		text-transform: uppercase;
+		text-align: center;
+		font-size: .9em;
+		margin-bottom: 15px;
+	}
+
+	.photopost h3.dateandtag {
+		text-transform: none;
+	}
+	
+	.photocaption {
+		width: 630px;
+		margin: 20px auto 0 auto;
+		font-size: 1em;
+		text-align: left;
+	}
+
+blockquote {
+	margin: 15px 20px 15px 15px;
+	padding: 0px 0 0px 15px;
+	border-left: 3px solid #dedede;
+	color: #4a4a4a;
+}
+
+	blockquote p {
+		padding: 0;
+	}
+
+sup {
+    line-height: 1;
+}
+
+#pagination {
+    text-align: center;
+    font-size: .9em;
+    margin-top: 75px;
+}
+
+#footer {
+	width: 630px;
+	text-align: center;
+	margin: 120px auto 20px auto;
+	font-size: .8em;
+}
+
+	#footer hr {
+		margin-bottom: 30px;
+		font-size: 1.25em;
+	}
+
+	#footer h3 {
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 0px;
+	}
+
+	#footer p.aboutme {
+		font-size: 1.1em;
+		line-height: 1.5em;
+		text-align: left;
+		margin-bottom: 25px;
+	}
+
+	#footer ul {
+		display: inline;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+		
+		#footer li {
+			display: inline;
+			list-style: none;
+			border-left: 1px solid #999;
+			padding: 0 4px 0 7px;
+		}
+			
+		#footer li:first-child {
+			border: 0;
+			padding-left: 0;
+		}
+		
+#archive {
+	width: 630px;
+	margin: 60px auto 0 auto;
+	text-align: center;
+}
+
+		div.mainleft {
+			float: left;
+			width: 285px;
+			margin-right: 30px;
+		}
+		
+		div.mainright {
+			float: right;
+			width: 285px;
+			margin-left: 30px;
+		}
+
+	#archive h2 {
+		font-size: .9em;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+
+	#archive ul {
+		margin-top: 5px;
+		padding-left: 0;
+	}
+	
+	#archive li {
+		font-size: .9em;
+		line-height: 1.4em;
+		list-style: none;
+	}
+
+	h1.archive {
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 60px;
+		margin-bottom: 45px;
+	}
+	
+	h1.monthlyarchive {
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 60px;
+		margin-bottom: -10px;
+		padding-bottom: 0;
+	}
+	
+#articlelist {
+	width: 630px;
+	margin: 0 auto;
+}
+
+	#articlelist h2 {
+		font-size: 1.1em;
+		text-indent: -78px;
+		margin-left: 78px;
+		line-height: 1.2em;
+	}
+
+	#articlelist span.articlearchivedate {
+		padding-right: 15px;
+		font-size: .9em;
+		color: #a8a8a8;
+	}
+
+	#articlelist h2:hover span.articlearchivedate {
+		color: #333;
+	}
+
+		#articlelist a:link {
+			color: #333;
+			text-decoration: none;
+			border-bottom: none;
+		}
+
+		#articlelist a:visited {
+			color: #333;
+			text-decoration: none;
+			border-bottom: none;
+		}
+
+		#articlelist a:visited:hover {
+			color: #005b9c;
+			text-decoration: none;
+			border-bottom: none;
+		}
+
+		#articlelist a:hover {
+			color: #005b9c;
+			text-decoration: none;
+			border-bottom: none;
+		}
+	
+.archivemore {
+	width: 630px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+	.archivemore h3 {
+		font-size: 1.2em;
+	}
+	
+	.archivemore ul {
+		padding-left: 0;
+	}
+	
+	.archivemore li {
+		font-size: .9em;
+		line-height: 1.4em;
+		list-style: none;
+	}
+
+.toppagination {
+	text-align: center;
+	font-size: 1.2em;
+}
+	
+.pagination {
+	width: 630px;
+	margin: 80px auto 0 auto;
+	text-align: center;
+}
+
+
+/*   Responsive styles */
+
+@media screen and (min-width: 1300px) {
+	body {
+		font-size: 22px;
+	}
+	
+	#header,
+	#footer,
+	div.linkpost,
+	div.storypost,
+	#archive,
+	.archivemore,
+	#articlelist,
+	.pagination,
+	dl {
+		width: 630px;
+	}
+	
+		#header h2 {
+			font-size: .8em;
+		}
+		
+		#articlelist h2 {
+			text-indent: -93px;
+		}
+	
+	#main {
+		width: 630px;
+	}
+	
+		div.mainleft {
+			width: 285px;
+			margin-right: 30px;
+		}
+		
+		div.mainright {
+			width: 285px;
+			margin-left: 30px;
+		}
+
+}
+
+@media screen and (max-width: 840px) {
+	div.storypost img,
+	div.storypost iframe,
+	div.storypost object,
+	div.storypost embed,
+	div.storypost video {
+		width: 100%;
+	}
+
+	div.photopost {
+		width: auto;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	
+
+}
+
+@media screen and (max-width: 630px) {
+	#header,
+	#footer,
+	div.linkpost,
+	div.storypost,
+	#archive,
+	.archivemore,
+	#articlelist,
+	.pagination {
+		width: auto;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.photocaption {
+		width: auto;
+	}
+
+	#main {
+		width: auto;
+	}
+
+		div.mainleft {
+			float: none;
+			width: 100%;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		
+		div.mainright {
+			float: none;
+			width: 100%;
+			margin-right: auto;
+			margin-left: auto;
+		}
+	
+}

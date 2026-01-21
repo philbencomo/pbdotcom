@@ -1,0 +1,65 @@
+body {
+	font-family: Baskerville, 'Baskerville Old Face', Times, 'Times New Roman', serif;
+	font-size: 26px;
+	color: white;
+	background-color: #005b9c;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+div {
+	width: 19.5em;
+	margin: 150px auto 0 auto;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+
+p {
+	font-size: 100%;
+}
+
+ul.randomfoo {
+	font-size: 65%;
+	text-align: center;
+	padding: 0;
+	margin: 20px 0 0 0;
+	list-style: none;
+}
+
+	ul.randomfoo li {
+		display: inline;
+		padding: 0 10px 0 10px;
+		line-height: .5em;
+	}
+	
+	li.lastbullet {
+		border-left: 1px dotted white;
+	}
+
+p.smallfoo {
+	font-size: 65%;
+	text-align: left;
+	line-height: 130%;
+}
+
+p.hiddenfoo {
+	display: none;
+}
+
+a:link {
+	text-decoration: none;
+	color: #dcdcdc;
+}
+
+a:hover {
+	border-bottom: 1px solid #dcdcdc;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #dcdcdc;
+}
+
+a:visited:hover {
+	border-bottom: 1px solid #dcdcdc;
+}

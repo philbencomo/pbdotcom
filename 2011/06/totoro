@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.7">
+<link rel="stylesheet" type="text/css" media="screen" href="/css/8-2010.css">
+<link rel="icon" href="/favicon.ico">
+<link rel="alternate" type="application/atom+xml" href="/index.xml">
+<script type="text/javascript" src="/jwplayer/swfobject.js"></script>
+<script type="text/javascript" src="/jwplayer/jwplayer.js"></script>
+<script type="text/javascript" src="/js/smoothscroll.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6932442-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    <title>Totoro | Phil Bencomo</title>
+</head>
+<body>
+    <div id="header">
+    <h1><a href="/">The website of <strong>Phil Bencomo</strong></a></h1>
+    <h2><a href="/about" title="More about me and the site">About</a> <span class="bullet">•</span> <a href="/archive" title="Archive">Archive</a> <span class="bullet">•</span> <a href="https://www.flickr.com/photos/philbencomo" title="My Flickr feed">Flickr</a> <span class="bullet">•</span> <a href="http://cowbird.com/phil" title="My Cowbird stories">Cowbird</a> <span class="bullet">•</span> <a href="http://twitter.com/philbencomo" title="I tweet here">@philbencomo</a></h2>
+    
+</div>
+
+    
+    <div class="storypost">
+        <h1>Totoro</h1>
+        <p>I saw my first Miyazaki film on Cartoon Network in a hotel room. It was the spring of 2007, though I can&#8217;t recall which city my family and I were in or why we were on the road at all. But I do remember watching Derrick Rose in the basketball state championship game on TV &#8212; so we must have been close to home &#8212; while waiting for the shower. Flipping through channels after the game, I stumbled onto <em>Spirited Away</em>.</p>
+
+<p>Since then, I&#8217;ve seen just about every <a href="http://www.imdb.com/name/nm0594503/#Director">Miyazaki film</a>. I ordered <em>Princess Mononoke</em> on DVD later that year, and a couple summers ago I went through every film of his the library had.</p>
+
+<p>I own a fair number of them now, and every birthday a few more get added to the collection. <a href="http://www.imdb.com/title/tt0096283/"><em>My Neighbor Totoro</em></a> was a gift in the fall, one I&#8217;d seen only once, during that summer binge.</p>
+
+<p>A few days ago, I finally watched it again. That it took so long says a lot.</p>
+
+<p>There&#8217;s plenty to like: it&#8217;s lovely to look at, and there&#8217;s no shortage of tender moments or imagination.</p>
+
+<p>But it never felt like a movie for me, a childless 20-something, and that&#8217;s why I hadn&#8217;t revisited it. I felt both too old for it and not old enough. Never would I pull it from the shelf over, say, <em>Mononoke</em> or <em>Nausicaa</em>, films so much larger, so much more narratively complex. That&#8217;s not a knock on <em>Totoro</em>; it&#8217;s simply a reflection of what most resonates with me at this point in my life.</p>
+
+<p>So it is what it is: A very fine film, just not one made for me.</p>
+
+        <h3 class="dateandtag">Jun.  4, 2011 <span class="bullet">•</span> <a href="/tag/animation" title="All posts tagged 'animation'">animation</a> <a href="/tag/movies" title="All posts tagged 'movies'">movies</a> <a href="/tag/reviews" title="All posts tagged 'reviews'">reviews</a></h3>
+    </div>
+    
+    
+    
+    <div id="footer">
+        <hr>
+	<ul>
+             <li><a href="#header" title="Back to the top">&#x2191; Top</a></li>
+             <li><a href="/about">About</a></li>
+             <li><a href="/archive">Archive</a></li>
+             <li><a href="/index.xml">RSS</a></li>
+             <li><a href="http://twitter.com/philbencomo" title="I tweet here">@philbencomo</a></li>
+        </ul>
+</div>
+</body>
+</html>
